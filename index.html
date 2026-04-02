@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Waters of Leith — Stay Wired</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" class="nav-logo">Waters of Leith</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="findus.html">Find Us</a></li>
+      </ul>
+    </nav>
+
+    <div class="page">
+      <!-- HERO -->
+      <section class="hero" id="hero-particles">
+        <div class="grid-overlay"></div>
+        <div class="hero-content">
+          <p class="hero-eyebrow">// Waters of Leith — Energy Drink</p>
+          <h1 class="hero-headline">
+            Tonight<br />
+            <span class="hl">Starts</span><br />
+            Here
+          </h1>
+          <p class="hero-sub">
+            We use the latest technology in sports science to keep you hydrated,
+            sharp and full of energy. The night is yours — we're making sure you
+            outlast it.
+          </p>
+          <div class="hero-ctas">
+            <a href="about.html" class="btn btn-primary">Enter</a>
+            <a href="findus.html" class="btn btn-ghost">Find Us Tonight</a>
+          </div>
+        </div>
+
+        <svg
+          class="tube-deco"
+          viewBox="0 0 100 280"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0%" stop-color="#00D4FF" stop-opacity=".9" />
+              <stop offset="100%" stop-color="#0099BB" stop-opacity=".6" />
+            </linearGradient>
+            <linearGradient id="lg" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#B8FF00" stop-opacity=".6" />
+              <stop offset="100%" stop-color="#00D4FF" stop-opacity=".9" />
+            </linearGradient>
+            <clipPath id="tc">
+              <rect x="26" y="18" width="48" height="210" rx="24" />
+            </clipPath>
+          </defs>
+          <rect
+            x="16"
+            y="8"
+            width="68"
+            height="16"
+            rx="4"
+            fill="url(#tg)"
+            opacity=".7"
+          />
+          <rect
+            x="26"
+            y="18"
+            width="48"
+            height="210"
+            rx="24"
+            fill="none"
+            stroke="url(#tg)"
+            stroke-width="1.5"
+          />
+          <rect
+            x="26"
+            y="118"
+            width="48"
+            height="110"
+            fill="url(#lg)"
+            clip-path="url(#tc)"
+            opacity=".7"
+          />
+          <rect
+            x="32"
+            y="30"
+            width="7"
+            height="70"
+            rx="3"
+            fill="white"
+            opacity=".1"
+          />
+          <text
+            x="50"
+            y="90"
+            font-family="'Bebas Neue',sans-serif"
+            font-size="8"
+            fill="#00D4FF"
+            text-anchor="middle"
+            letter-spacing="2"
+            opacity=".7"
+          >
+            WATERS
+          </text>
+          <text
+            x="50"
+            y="102"
+            font-family="'Bebas Neue',sans-serif"
+            font-size="8"
+            fill="#00D4FF"
+            text-anchor="middle"
+            letter-spacing="2"
+            opacity=".7"
+          >
+            OF LEITH
+          </text>
+        </svg>
+
+        <div class="scroll-hint">
+          <div class="scroll-line"></div>
+          <span>Scroll to explore</span>
+        </div>
+      </section>
+
+      <!-- INGREDIENT CARDS -->
+      <section class="ingredients-strip">
+        <div class="section-label">// The Science</div>
+        <p class="section-sub">
+          Ancient secrets. Modern science. Every ingredient earns its place.
+        </p>
+        <div class="ingredients-grid">
+          <div class="ingredient-card">
+            <div class="card-accent"></div>
+            <p class="card-num">// 01</p>
+            <h3 class="card-name">Guarana</h3>
+            <p class="card-origin">Amazon Basin, Brazil</p>
+            <p class="card-desc">
+              A natural source of caffeine from the Amazon. Twice the potency of
+              a coffee bean. Keeps your mind firing all night.
+            </p>
+            <div class="card-reveal">
+              <p class="reveal-headline">"Eyes open.<br />Mind sharp."</p>
+              <p class="reveal-body">
+                Guarana seeds contain guaranine — a caffeine analogue that
+                releases slowly, meaning no crash. Used for centuries by
+                Amazonian tribes for sustained mental clarity.
+              </p>
+            </div>
+          </div>
+
+          <div class="ingredient-card">
+            <div class="card-accent"></div>
+            <p class="card-num">// 02</p>
+            <h3 class="card-name">Taurine</h3>
+            <p class="card-origin">Amino Acid Complex</p>
+            <p class="card-desc">
+              Supports muscle function and reduces fatigue. So you keep moving
+              when everyone else is done.
+            </p>
+            <div class="card-reveal">
+              <p class="reveal-headline">"Muscles moving.<br />No excuses."</p>
+              <p class="reveal-body">
+                Taurine buffers lactic acid, reduces oxidative stress and keeps
+                your body performing under pressure. The science of not
+                stopping.
+              </p>
+            </div>
+          </div>
+
+          <div class="ingredient-card">
+            <div class="card-accent"></div>
+            <p class="card-num">// 03</p>
+            <h3 class="card-name">Rehydration Salts</h3>
+            <p class="card-origin">Electrolyte Complex</p>
+            <p class="card-desc">
+              Everything you sweat out, back in. Precision electrolytes keep
+              your fluid balance optimal — even on the dancefloor.
+            </p>
+            <div class="card-reveal">
+              <p class="reveal-headline">
+                "Everything you<br />sweat out, back in."
+              </p>
+              <p class="reveal-body">
+                Sodium, potassium and magnesium in precise ratios — the same
+                science used by endurance athletes. Dancing is cardio. We take
+                it seriously.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <a href="index.html" class="footer-logo">Waters of Leith</a>
+      <span class="footer-copy"
+        >© 2026 Waters of Leith. All rights reserved.</span
+      >
+      <div class="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">Spotify</a>
+        <a href="#">DJ Mag</a>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
+  </body>
+</html>
